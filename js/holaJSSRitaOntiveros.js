@@ -1,2 +1,6 @@
+let nombre = "Rita";
+let apellido = "Ontiveros";
 
-console.log("Hola mundo, según  Rita  Ontiveros");
+const TEXTO = "Hola Mundo, segun ";
+
+console.log(TEXTO + apellido + " " + nombre);
