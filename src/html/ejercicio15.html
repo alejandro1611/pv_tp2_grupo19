@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_15</title>
+</head>
+<body>
+    <script>
+        let retornarMes = num => {
+    switch (num) {
+        case 1:
+            return "Enero";
+        case 2:
+            return "Febrero";
+        case 3:
+            return "Marzo";
+        case 4:
+            return "Abril";
+        case 5:
+            return "Mayo";
+        case 6:
+            return "Junio";
+        case 7:
+            return "Julio";
+        case 8:
+            return "Agosto";
+        case 9:
+            return "Septiembre";
+        case 10:
+            return "Octubre";
+        case 11:
+            return "Noviembre";
+        case 12:
+            return "Diciembre";
+        default:
+            return "NO es un mes valido";
+    }
+}
+
+let numero = Number(prompt("Ingrese un numero del 1 al 12: "));
+document.write(`El mes correspondiente al numero ${numero} es: ${retornarMes(numero)}`);
+    </script>
+</body>
+</html>
