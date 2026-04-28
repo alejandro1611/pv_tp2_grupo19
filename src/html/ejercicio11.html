@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consumo de Combustible</title>
+</head>
+<body>
+
+<script>
+const calcularConsumo = (litros, kilometros) => litros / kilometros;
+
+const kilometros = parseFloat(prompt("Ingrese los kilómetros recorridos:"));
+const litros = parseFloat(prompt("Ingrese los litros consumidos:"));
+
+const resultado = kilometros > 0
+    ? calcularConsumo(litros, kilometros).toFixed(3)
+    : "Error: los kilómetros deben ser mayores a 0";
+
+document.body.innerHTML = `<h2>El consumo es: ${resultado} litros por km</h2>`;
+</script>
+
+</body>
+</html>
