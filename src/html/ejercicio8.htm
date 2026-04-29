@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">8
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_8</title>
+</head>
+<body>
+    <script>
+        let notas=[];
+        let promedio =0;
+        let notasaprobadas=[];
+        let notasdesaprobadas=[]
+        for(let i=0; i<10; i++){
+        let notas = parseInt(prompt( `ingrese la nota ${i + 1}:`));
+        if(notas>=6){
+            notasaprobadas.push(notas);
+        }
+        else{
+            notasdesaprobadas.push(notas);
+        }
+        promedio=promedio+notas;
+        notas=notas[i];
+        }
+        document.write(`notas aprobadas: ${notasaprobadas.join(", ")}<br>`);
+        document.write(`notas desaprobadas: ${notasdesaprobadas.join(", ")}<br>`);
+        document.write(`Promedio: ${promedio / 10}`);       
+    </script>
+</body>
+</html>
