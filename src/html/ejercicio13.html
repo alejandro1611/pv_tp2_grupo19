@@ -6,6 +6,14 @@
     <title>Ejercicio_13</title>
 </head>
 <body>
-    
+    <script>
+        let cantidad= parseInt(prompt(`¿cuantos numeros desea ingresar?`));
+        let numeros=[];
+        for(let i=0; i<cantidad; i++){
+            let num = parseInt(prompt(`Ingrese el número ${i + 1}:`));
+            numeros.push(num);
+            document.write(`${num}<br>`);
+        }
+    </script>
 </body>
 </html>
