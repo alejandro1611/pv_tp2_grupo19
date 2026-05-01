@@ -5,7 +5,7 @@
 - Alejandro Imanol Cruz  
   GitHub: @alejandro1611  
 
-- Alfredo Ezequiel Gonzalez  
+- Alfredo Ezequiel Gonzalez Lopez
   GitHub: @Ezequiel12354s  
 
 - Roberto Alex Moraña Castillo  
