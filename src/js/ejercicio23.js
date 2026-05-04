@@ -1,4 +1,4 @@
-import { mostrarTexto, cambiarColor } from "/src/services/serviceEjercicio23.js";
+import { mostrarTexto, cambiarColor } from "../services/serviceEjercicio23.js";
 
 const inputTexto = document.getElementById("textoInput");
 const resultado = document.getElementById("resultado");
