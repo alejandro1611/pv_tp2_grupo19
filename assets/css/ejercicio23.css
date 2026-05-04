@@ -17,4 +17,7 @@ input {
     min-height: 30px;
     background-color: lightgray;
     transition: background-color 0.3s;
+
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
